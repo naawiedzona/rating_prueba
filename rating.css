@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    background: linear-gradient(rgb(250, 190, 202), rgb(238, 88, 238));
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Truculenta', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    border-radius: 4px;
+    width: 800px;
+    background-color: rgba(248, 248, 248, 0.349);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+header h2{
+    font-size: 1.8em;
+    color:rgb(222, 23, 240)
+}
+.stars-all{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.stars-all input{
+    display: none;
+}
+
+.stars-all label{
+    font-size: 70px;
+    color: rgba(241, 236, 236, 0.76);
+    margin: 2px;
+  }
+
+
+    input:not(:checked) ~ label:hover, 
+  input:not(:checked) ~ label:hover ~ label{
+    color: #f8961e;
+  }
+  input:checked ~ label{
+    color: #f8961e;
+  }
+ 
+
+
