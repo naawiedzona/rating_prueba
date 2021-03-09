@@ -30,7 +30,7 @@ header h2{
 }
 .stars-all{
   display: flex;
-  /*flex-direction: row-reverse;*/
+  flex-direction: row-reverse;
   justify-content: center;
 }
 .stars-all input{
@@ -43,7 +43,7 @@ header h2{
     margin: 2px;
   }
 
-/*
+
   input:not(:checked) ~ label:hover, 
   input:not(:checked) ~ label:hover ~ label{
     color: #f8961e;
@@ -52,4 +52,4 @@ header h2{
    input:checked ~ label{
     color: #f8961e;
   }
-*/
+
